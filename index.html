@@ -35,15 +35,23 @@
             </form>
              <form >
                 pais
-                <select style="color: skyblue;" name="bolivia" id="bol">Bolivia</select>
-                <select style="color: skyblue;" name="venezuela" id="ven">Venezuela</select>
-                <select style="color: skyblue;" name="colombia" id="col">Colomvia</select>
+                <select style="color: skyblue;" name="seleccion" id="pais">
+                    <option value="bolivia">Bolivia</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="peru">Peru</option>
+                    <option value="chile">Chile</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+                
              </form>
            
             <p>fecha de nacimiento</p>
     </th><th>Datos complementarios</th></tr>
     <tr><th>
-        <p>subir archivo <p style="color: skyblue;">Choose file</p> no file selected</p>
+        subir archivo:
+            <label style="color: skyblue;"><input type="file">Choose file</label>
         <br>
             <p>Comentarios</p>
             <textarea name="Comentarios"  placeholder="" rows="10" cols="50"></textarea>
